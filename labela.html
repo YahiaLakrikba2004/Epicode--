@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form example</title>
+    <style>
+      footer {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Forma di raccolta dati</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="first name">il tuo nome</label>
+          <input id="first name" type="text" placeholder="Mario" autofocus />
+        </div>
+        <div>
+          <label for="last name">il tuo cognome</label>
+          <input id="last name" type="text" placeholder="Rossi" />
+        </div>
+        <div>
+          <label for="Age">La tua Età</label>
+          <input id="Age" maxlength="2" type="text" />
+        </div>
+        <div>
+          <label for="color">il tuo colore preferito</label>
+          <input id="color" type="color" />
+        </div>
+        <div>
+          <label for="Bio"></label>
+          <textarea>parlaci un po di te</textarea>
+        </div>
+        <div>
+          <button type="button" onclick="alert('HAI CLICCATO POPUP')">
+            POPUP
+          </button>
+          <button type="reset">Invia</button>
+          <button type="submit">Invia</button>
+        </div>
+      </form>
+    </main>
+    <footer>Epicode</footer>
+  </body>
+</html>
